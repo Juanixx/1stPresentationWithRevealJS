@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+
+
+
+
+		<meta charset="utf-8">
+
+		<title>Optimizacion del transporte público</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+<style type="text/css">
+	.justifica{
+text-align:justify;
+
+	}
+
+	.subs{
+          text-align: left;
+
+	}
+
+
+</style>
+
+	</head>
+
+	<body>
+	<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+		<section data-background="#dddddd">
+		<img width="190" height="238" data-src="imagenes/logoitspa.jpg" alt="Logo ITSPA" style="float:left; margin:10px;"><br/>
+			<h2><font size=10> Instituto Tecnológico Superior de Pátzcuaro</font></h2>
+			<br/><br/>
+			<h5>Optimización de arribo al transporte público para las diferentes personas que lo frecuentan</h5>
+			<br/>
+<p><pre><b><font size="6">Alumnos:</font></b>
+Miguel Ángel Piedra González
+Juan Eduardo Calderón Servín
+
+<b><font size="6">Profesora:</font></b>
+Soraida Quesada Ascencio
+</pre></p>
+		</section>
+<section data-background="#dddddd" >
+<h2><b>Introducción</b></h2>
+<section>
+<br/><br/><br/>
+<p class="justifica">
+En la actualidad, las aplicaciones móviles son muy utilizadas 
+debido a que permiten a la persona que se encuentra usándola, 
+llegar a resolver una necesidad, tarea o actividad en cada momento 
+de su día a día. </p>
+<img height="300" width="300" src="imagenes/intro.jpg" />
+<img height="300" width="400" src="imagenes/intro1.2.jpg">
+</section>
+<section>
+<div class="fragment roll-in">
+<br/><br/><br/>
+<p class="justifica">
+	Existen una gran cantidad de diferentes tipos de aplicaciones móviles que incluso se asemejan a las aplicaciones de un ordenador (PC).
+	</p>
+</div>
+<div class="fragment">
+	<img src="imagenes/intro1.1.jpg" height="300" width="300" >
+	
+</div>
+</section>
+</section>
+<section>
+	<h2><b>Antecedentes</b></h2><br/>
+
+<section><br/><br/>
+<p class="justifica"><font size="6,5">
+	El control de tráfico vial implica la organización de la circulación vehicular y peatonal alrededor de una zona de obras viales o accidentes, asegurando la seguridad de los equipos operativos involucrados y del público.
+</font>
+</p>
+	<img src="imagenes/traf.jpg" height="200" width="300" >
+	<img src="imagenes/traf2.jpg" height="200" width="300" >
+	<img src="imagenes/fondoan.jpg" height="200" width="300" >
+
+
+</section>
+
+	<section>
+	<p class="justifica"><font size="6,5">
+		Según Luis Fernando P., César Augusto H. y Danilo Alfonso L. en Bogotá:<br/><br/>
+“El transporte particular que se desplazó por la red vial de Bogotá para el año 2010 constó aproximadamente de 1, 063,869 automóviles particulares matriculados. Durante el 2010 en Bogotá transitaron 17,083 vehículos de transporte público y 49, 206 taxis. Estos vehículos realizaron el 56% de viajes en la ciudad y el restante 22% estuvo cubierto por desplazamientos a le, motocicletas y bicicletas, entre otros.”
+</font>
+	</p>
+	</section>
+
+</section>
+
+<section>
+	<h2><b>Planteamiento del problema</b></h2>
+<section><br/><br/><br/><br/>
+	<h4 style="text-align:left">Descripción del problema y planteamiento</h4>
+    <p class="justifica">
+El crecimiento desordenado de la población en distintas ciudades del planeta ha traído como consecuencia que las ciudades crezcan y por lo tanto también su infraestructura.
+</p>
+</section>
+
+<section><br/><br/><br/><br/>
+	<img src="imagenes/crec.jpg" height="300" width="400" >
+
+
+</section>
+
+<section><br/><br/><br/><br/>
+	<img src="imagenes/alg.jpg" height="300" width="400" >
+	<img src="imagenes/sem.jpg" height="300" width="400" >
+
+</section>
+
+<section><br/><br/>
+<br/><br/><br/>
+	<p><font size="6,5">
+		<pre>
+Entre los principales problemas que se generan en México debido a la situación actual de los semáforos los más preocupantes son los siguientes:
+
+1.	Los accidentes automovilísticos que representan una pérdida para la sociedad, ya que es una de las principales causas de mortalidad en México.
+
+2.	Los largos tiempos de espera para poder desplazarse en la ciudad.
+
+3.	Las altas cantidades de emisiones de CO2 al ambiente debido a la gran cantidad de autos que quedan atrapados en las congestiones. 
+</pre>
+</font>
+
+	</p>
+</section>
+
+<section><br/>
+	<p class="justifica">
+		¿Cuáles serían los efectos de implementar una web App mediante la cual se toman decisiones en el uso del transporte público en la ruta del libramiento de Pátzcuaro Michoacán? 		
+	</p>
+</section>
+
+</section>
+
+
+
+
+
+<section >
+<h2><b>Objetivos</b></h2>
+<section>
+	<p class="justifica"><br/>
+	<font size="6,5"><b>Objetivo general</b></font><br/><br/><span class="fragment">
+		Desarrollar e implementar una webapp que describa los tiempos para tomar el transporte público de la ruta de A  en el libramiento  general de la ciudad de pátzcuaro, para que la gente se vea beneficiada en la optimización del tiempo y conozca el horario oportuno para tomar su servicio.</span></p>
+		</section>
+<section style="text-align:left;">
+<font size="6,5"><b>Objetivos específicos</b></font><br/><br/>
+					<ul>
+						<li class="fragment"><font size="6">Medir y evaluar el beneficio de la aplicación con las personas.</font></li>
+						<li class="fragment"> <font size="6">Brindar información confiable de horarios de la ruta de transporte.</font></li>
+						<li class="fragment"><font size="6">Promover las aplicaciones Web en la solución de problemas  cotidianos de la vida real.</font></li>
+					</ul>
+	</section>
+</section>
+
+<section>
+
+<h2><b>Hipótesis</b></h2>
+<section>
+	
+<p class="justifica">
+	Cuanto mayor sea el uso de la web App para geo-localización de combis en Pátzcuaro, menor será el número de personas en espera por el transporte público.</p>
+</section>
+</section>
+
+
+<section>
+<h2><b>Justificación</b></h2>
+<section><br/><br/>
+	<p class="justifica">
+		La realización de éste proyecto es realizado con el fin de presentar información confiable de los horarios de las combis para que las personas puedan tomar decisiones y beneficiarse en llegar a tiempo a sus negocios, trabajos, escuelas, entre otras.
+        
+	</p>
+	<img src="imagenes/llt.png" height="210" width="260" >
+</section>
+<section><br/><br/>
+	<p class="justifica">
+	Los principales beneficiados serán los usuarios foráneos, locales, extranjeros y usuarios concurrentes de esa ruta
+	</p>
+	<br/>
+	<img width="230" height="278" data-src="imagenes/fyc.jpg" alt="Personas locales y foráneas">
+    <img width="400" height="300" data-src="imagenes/combis.jpg" alt="combis">
+</section>
+</section>
+
+<section section data-transition="slide" data-background="#00BFFF" data-background-transition="zoom">
+<h2><b>Marco teórico</b></h2>
+	<section class="justifica">
+	<p>El marco teórico es parte fundamental de cualquier investigación, por ello,  se define como la sustentación teórica del estudio o tema de investigación. Consiste en analizar y exponer las teorías, enfoques, investigaciones y antecedentes que se consideren válidos para el correcto encuadre del estudio. (Sampieri, 1991).</p>
+
+	
+</section>
+<section ><br/><br/>
+<p class="justifica">
+	El estudio “Our Mobile Planet”, menciona que el número de smart phone aumentara para este año 2015 en comparación con otros años anteriores, y ha sido tal su impacto que han transformado el comportamiento de los consumidores.
+</p>
+<img src="imagenes/omp.png" height="240" width="300" >
+</section>
+
+<section><br/><br/><br/>
+<h4 style="text-align:left"><b>Elección del tema para el desarrollo de la aplicación</b></h4>
+<p class="justifica">
+Las app´s posibilitan aún más la comunicación dialógica al ser herramientas portables que la mayor parte de las veces están junto al usuario.
+</p>
+<img src="imagenes/appyus.jpg" height="240" width="300" >
+</section>
+
+<section>
+	<h4 style="text-align:left"><b>Presencia de web Apps en Pátzcuaro</b></h4>
+	<p class="justifica">
+		Éste proyecto se refiere a una herramienta para los usuarios del transporte público que deseen conocer el horario de la ruta del libramiento de la ciudad para que puedan tener el control de sus actividades, sin la demora y pérdida de tiempo que lleva esperar un transporte público.
+	</p>
+
+</section>
+
+<section>
+	<h4 style="text-align:left"> <b>Esfuerzos de otras ciudades por tener una ciudad digital</b></h4>
+	<p class="justifica">
+		 En el mundo actual existen ciudades que han hecho grandes esfuerzos por llevar la tecnología al alcance de toda la ciudadanía sin importar sus condiciones sociales, sino más bien lo que se proponen es satisfacer una necesidad por medio de las web Apps.
+	</p>
+
+</section>
+
+<section>
+	<h4 style="text-align:left"><b>Conceptos del transporte público</b></h4>
+<p class="justifica">
+	Molinero y Sánchez (1997:15) señalan que las principales características de los sistemas de transporte se basan en:
+<ul>
+						<li class="fragment">Operación de transporte.</li>
+						<li class="fragment">Servicio de transporte.</li>
+					</ul>	
+
+</p>
+</section>
+
+<section><br/><br/><br/>
+	<h4 style="text-align:left"><b>El sistema de transporte público (STP)</b></h4>
+<p class="justifica">
+	La medida más usual para dar prioridad al transporte colectivo es el de asignar carril exclusivo, que consiste en separar uno de los dos carriles de una vía para que sea utilizado exclusivamente por el vehículo de transporte público. 
+</p>
+<img src="imagenes/ce.jpg" height="240" width="300" >
+<aside class="notes">
+						El transporte público en su trayecto de operación sufren variaciones de acuerdo al desarrollo de los pueblos como lo es:<br/>
+						capacidad vial: ocurre la congestión, se adoptan medidas usuales para la mejoría de la capacidad como es la coordinación de semáforos y no se supera el conflicto.
+					</aside>
+</section>
+
+
+<section>
+	<h4 style="text-align:left"><b>Aspectos para la recopilación de la información</b></h4>
+    <p class="justifica">
+    	La evaluación dependerá de datos fácilmente obtenidos sin depender en mayor porcentaje de la información de los operadores; se necesitan entonces encuestas de campo para obtener la mayor parte de la información.
+    </p>
+
+
+</section>
+
+    <section><br/><br/>
+    <p class="justifica">Se propone las siguientes variables de rendimiento clave en la operación:</p>
+    	<ul>
+						<li class="fragment">Número de pasajeros por unidad.</li>
+						<li class="fragment">Número de vehículos por hora.</li>
+                        <li class="fragment">Kilómetros recorridos.</li>
+                        <li class="fragment">Accidentes en el transporte público.</li>
+                        <li class="fragment">Averias en servicio.</li>
+                        <li class="fragment">Consumo de combustible.</li>
+                        <li class="fragment">Kilómetros muertos.</li>
+
+					</ul>
+
+    </section>
+
+</section>
+
+<section>
+	<h2><b>Metodología</b></h2>
+	<section>
+	<p style="text-align:left"><br/>
+	En la presente investigación se utilizarán los siguientes tipos de investigación:
+</p><br/>
+<ul class="justifica">
+						<li class="fragment">Investigación aplicada.</li>
+						<li class="fragment">Investigación de campo.</li>
+					</ul>	
+</section>
+<section><br/><br/>
+	<p class="justifica">
+	También se utilizó el pensamiento sintético que se basa en reducir la cantidad de información como de detalles y concentrarse solamente en una sola ruta (Ruta A del Lib. De Pátzcuaro), por lo tanto se utilizará el pensamiento deductivo.
+
+	<aside class="notes">
+						 La comunidad estudiantil de Instituto Tecnológico Superior de Pátzcuaro puede contribuir con conocimientos y soluciones que permitan agilizar el uso de éste servicio en beneficio de toda la comunidad que lo utiliza.
+					</aside>
+</p>
+<img src="imagenes/ps.jpg" height="240" width="300" >
+</section>
+<section>
+<ul class="justifica"><br/><br/>
+						<li class="fragment">Uso de apps web y tecnología móvil.</li>
+						<li class="fragment">
+						Estado de las tecnologías móviles.</li>
+                        <li class="fragment">Algunas aplicaciones de las tecnologías móviles y las apps web.</li>
+                        <li class="fragment">Estructuración de objetivos.</li>
+                        <li class="fragment">Redacción de hipótesis.</li>
+                        <li class="fragment">Evaluación de los costos de las combis por persona y servicio de Internet ya sea de paga o gratuito en determinados puntos locales.</li>
+                        <li class="fragment"> <a href="#/8/3"> Medición del nivel de calidad del servicio público y la app web.</a></li>
+                        <li class="fragment"><a href="#/8/4">Técnicas para la recolección de datos.</a></li>
+                        <li class="fragment">Redacción de hipótesis.</li>
+					</ul>		
+
+
+</section>
+<section section data-transition="slide" data-background="#40E0D0" data-background-transition="zoom"><br/>
+	<table style="font-size:22px">
+						<thead>
+							<tr>
+								<th>Factores de medición de calidad del servicio</th>
+								<th>Indicadores</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Tiempo requerido para completar un recorrido completo</td>
+								<td>Tiempo de recorrido<br/>
+								Tiempo de espera<br/>
+								Tiempo para evadir interrupciones inesperadas<br/>
+								</td>
+							<tr>
+							<tr>
+								<td>Comodidad</td>
+								<td>Disponibilidad de lugar para que el usuario se siente.<br/>
+								Opinión de los usuarios sobre la comodidad.
+								</td>
+							<tr>
+							<tr>
+								<td>Tiempo de acceso a la red de Internet</td>
+								<td>Disponibilidad de la red (2G, 3G, 4G o local (servicio gratuito de Internet en lugares públicos)<br/>
+								Saturación de usuarios en la red
+								</td>
+							<tr>
+							<tr>
+								<td>Tiempo de carga de la aplicación web</td>
+								<td>Contenido innecesario que se carga<br/>
+									Saturación de acceso a la aplicación web
+								</td>
+							<tr>
+							<tr>
+								<td>App web comprensible</td>
+								<td>Contenidos claros y simples</td>
+							<tr>
+							
+						</tbody>
+					</table><br/>
+					<a href="#/8/2">Regresar a la lista</a>
+
+</section>
+<section><br/><br/><br/>
+	<h4 style="text-align: left"><b>Técnicas para la recolección de datos.</b></h4>
+<ul class="justifica" style="font-size:40px"><br/><br/>
+						<li>Elección del tema de investigación.</li>
+						<li>Búsqueda de antecedentes del proyecto.</li>
+						<li>Recopilación bibliográfica.</li>
+						<li>Trabajo de campo.</li>
+						<li>Recopilación de las encuestas y procesamiento de  la información.</li>	
+
+					</ul>	
+					<a href="#/8/5">Continúa...</a>.
+
+</section>
+
+<section><br/><br/><br/>
+	<h4 style="text-align: left"><b>Técnicas para la recolección de datos.</b></h4>
+<ul class="justifica" style="font-size:40px"><br/><br/>
+						<li>Recopilación de herramientas de software para el diseño y desarrollo de la web app.</li>
+						<li>Modelo Navegacional.</li>
+						<li>Pruebas.</li>
+						<li>Implementación.</li>
+					</ul>	
+					<a href="#/8/2">Regresar a la lista</a>
+
+</section>
+
+</section>
+
+<section>
+	<h2>Operacionalización de variables</h2>
+<img src="imagenes/matriz.png" height="500px" width="900px">
+</section>
+
+<section>
+	<h2>Cronograma</h2>
+	<section><br/><br/>
+<img src="imagenes/cronograma.png" height="500px" width="900px">
+</section>
+
+<section><br/><br/>
+	<img src="imagenes/cronograma.2.png" height="500px" width="900px">
+
+</section>
+</section>
+<section>
+<h2><b>Bibliografía</b></h2>
+<section><br/>
+<p class="justifica"><font size="5">http://www.skyscrapercity.com/showthread.php?t=1412942<br/>
+altonivel. (s.f.). Recuperado el 17 de Marzo de 2015, de http://www.altonivel.com.mx/21096-como-usan-los-mexicanos-sus-smartphones.html<br/>
+appdesingbook. (s.f.). Recuperado el 18 de Marzo de 2015, de http://www.appdesignbook.com/es/contenidos/las-aplicaciones/<br/>
+El Desempeño Interactivo de las Aplicaciones Móviles (App's) implementadas por el Gobierno del Distrito Federal 2012-2014. (19 de Marzo de 2015). Mexico DF.<br/>
+Lerbinger, Otto. Diseños para una comunicación persuasiva. Editorial el manual 
+moderno. México. 1979<br/>
+Our Mobile Planet. (s.f.). Recuperado el 17 de Marzo de 2015, de www.kelevrads.com/sp/files/our_mobile_planet_mexico_es.pdf<br/>
+</font></p>
+	</section>
+<section>
+	<p class="justifica"><font size="5"><br/>
+	Sampieri, h. (s.f.). slideshare. Recuperado el 17 de Marzo de 2015, de http://es.slideshare.net/pts/resumen-hernandez-sampieri<br/>
+Blancornelas, Jesús. Horas Extra. México, DF.: Plaza Janes. 2003<br/>
+Cook D., Thomas; Reichardt S., Charles. Qualitative and quantitative methods in 
+evaluation research. Sage Publications. Inglaterra. 1979<br/>
+Graizbord, Boris. Un modelo analítico de participación ciudadana. Revista 
+Economía, Sociedad y Territorio. 2002<br/>
+International Monetary Fund. Consumer Market Perspective. Market: Africa/Mid
+East. Estados Unidos, 2005; p.5.<br/>
+La iniciativa de comunicación: http://www.comminit.com/la/ <br/>
+Secretaría de Comunicaciones y Transportes de Puebla: http://www.sct.pue.gob.mx
+</font>
+</p>
+
+</section>
+
+</section>
+
+
+</div>
+</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
